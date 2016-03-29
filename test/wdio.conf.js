@@ -1,5 +1,4 @@
 exports.config = {
-
     specs: [
         './test/*.spec.js'
     ],
@@ -20,13 +19,11 @@ exports.config = {
 
     framework: 'mocha',
     mochaOpts: {
-        ui: 'bdd',
-        requires: [
-            'babel-register'
-        ]
+        ui: 'bdd'
     },
 
     services: [
-        require('../')
-    ]
+        require('../launcher')
+    ],
+    seleniumLogs: './'
 }
