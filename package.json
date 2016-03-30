@@ -14,7 +14,11 @@
   },
   "keywords": [
     "webdriverio",
+    "wdio",
+    "wdio-service",
     "selenium",
+    "standalone",
+    "server",
     "tests"
   ],
   "author": "",
