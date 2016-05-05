@@ -6,6 +6,7 @@
   "scripts": {
     "postinstall": "selenium-standalone install",
     "build": "grunt build",
+    "prepublish": "npm prune && npm run build",
     "test": "wdio test/wdio.conf.js"
   },
   "repository": {
