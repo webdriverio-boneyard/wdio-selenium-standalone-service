@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "selenium-standalone install",
-    "preinstall": "npm run build",
     "build": "grunt build",
+    "prepublish": "npm prune && npm run build",
     "test": "wdio test/wdio.conf.js"
   },
   "repository": {
