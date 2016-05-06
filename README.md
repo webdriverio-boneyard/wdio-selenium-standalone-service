@@ -1,5 +1,4 @@
-WDIO Selenium Standalone Service [![Code Climate](https://codeclimate.com/github/webdriverio/wdio-selenium-standalone-service/badges/gpa.svg)](https://codeclimate.com/github/webdriverio/wdio-selenium-standalone-service)
-[![Build Status](https://travis-ci.org/webdriverio/wdio-selenium-standalone-service.svg?branch=master)](https://travis-ci.org/webdriverio/wdio-selenium-standalone-service)
+WDIO Selenium Standalone Service [![Code Climate](https://codeclimate.com/github/webdriverio/wdio-selenium-standalone-service/badges/gpa.svg)](https://codeclimate.com/github/webdriverio/wdio-selenium-standalone-service) [![Build Status](https://travis-ci.org/webdriverio/wdio-selenium-standalone-service.svg?branch=master)](https://travis-ci.org/webdriverio/wdio-selenium-standalone-service)
 ================================
 
 Handling the Selenium server is out of scope of the actual WebdriverIO project. This service helps you to run Selenium seamlessly when running tests with the [WDIO testrunner](http://webdriver.io/guide/testrunner/gettingstarted.html). It uses the well know [selenium-standalone](https://www.npmjs.com/package/selenium-standalone) NPM package that automatically setups the standalone server and all required driver for you.
