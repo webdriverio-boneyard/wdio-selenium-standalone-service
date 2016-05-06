@@ -49,6 +49,6 @@
     "grunt-npm": "0.0.2",
     "load-grunt-tasks": "^3.4.1",
     "wdio-mocha-framework": "^0.2.12",
-    "webdriverio": "^4.0.5"
+    "webdriverio": "^4.0.7"
   }
 }

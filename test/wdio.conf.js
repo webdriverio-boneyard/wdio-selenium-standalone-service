@@ -8,7 +8,7 @@ exports.config = {
     }],
 
     sync: true,
-    logLevel: 'silent',
+    logLevel: 'verbose',
     coloredLogs: true,
 
     baseUrl: 'http://webdriver.io',
