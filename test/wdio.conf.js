@@ -25,5 +25,11 @@ exports.config = {
     services: [
         require('../launcher')
     ],
-    seleniumLogs: './'
+    seleniumLogs: './',
+    seleniumArgs: {
+        version: "2.45.0"
+    },
+    seleniumInstallArgs: {
+        version: "2.45.0"
+    }
 }
