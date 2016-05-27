@@ -1,10 +1,9 @@
 {
   "name": "wdio-selenium-standalone-service",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "WebdriverIO service to start & stop Selenium Standalone",
   "main": "index.js",
   "scripts": {
-    "postinstall": "selenium-standalone install",
     "build": "grunt build",
     "prepublish": "npm prune && npm run build",
     "test": "wdio test/wdio.conf.js"
