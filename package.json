@@ -55,8 +55,10 @@
     "webdriverio": "^4.0.7"
   },
   "contributors": [
-    "Andrii Lazebnyi <andriilazebnyi@users.noreply.github.com>",
     "Christian Bromann <github@christian-bromann.com>",
+    "Jan-André Zinser <zinserjan@gmail.com>",
+    "Andrii Lazebnyi <andriilazebnyi@users.noreply.github.com>",
+    "Simon Tsvilik <stsvilik@bloomberg.net>",
     "George Crawford <g.o.crawford@gmail.com>",
     "just-boris <just-boris@hotmail.com>"
   ]
