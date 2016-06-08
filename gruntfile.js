@@ -10,7 +10,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: './lib',
-                    src: ['*.js'],
+                    src: ['**/*.js'],
                     dest: 'build',
                     ext: '.js'
                 }]
@@ -18,14 +18,14 @@ module.exports = function (grunt) {
         },
         watch: {
             dist: {
-                files: ['./lib/*.js'],
+                files: ['./lib/**/*.js'],
                 tasks: ['babel:dist']
             }
         },
         eslint: {
             target: [
                 'index.js',
-                'lib/*.js'
+                'lib/**/*.js'
             ]
         },
         contributors: {

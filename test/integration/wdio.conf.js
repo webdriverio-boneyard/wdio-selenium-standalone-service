@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        './test/*.spec.js'
+        './test/integration/*.spec.js'
     ],
 
     capabilities: [{
@@ -23,13 +23,13 @@ exports.config = {
     },
 
     services: [
-        require('../launcher')
+        require('../../launcher')
     ],
     seleniumLogs: './',
     seleniumArgs: {
-        version: "2.45.0"
+        version: '2.45.0'
     },
     seleniumInstallArgs: {
-        version: "2.45.0"
+        version: '2.45.0'
     }
 }

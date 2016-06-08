@@ -6,7 +6,9 @@
   "scripts": {
     "build": "grunt build",
     "prepublish": "npm prune && npm run build",
-    "test": "wdio test/wdio.conf.js"
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "mocha --compilers js:babel-register --recursive test/unit",
+    "test:integration": "wdio test/integration/wdio.conf.js"
   },
   "repository": {
     "type": "git",
@@ -48,6 +50,7 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-eslint": "^18.0.0",
     "load-grunt-tasks": "^3.4.1",
+    "mocha": "^2.5.3",
     "wdio-mocha-framework": "^0.2.12",
     "webdriverio": "^4.0.7"
   },
