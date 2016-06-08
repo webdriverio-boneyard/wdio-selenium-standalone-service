@@ -1,5 +1,6 @@
 var assert = require('assert')
 var fs = require('fs')
+var path = require('path')
 
 describe('webdriverio', function () {
     it('should run a test', function () {
@@ -8,7 +9,8 @@ describe('webdriverio', function () {
     })
 
     it('should have created a log file', function () {
-        var file = fs.statSync(process.cwd() + '/selenium-standalone.txt')
+        var filePath = path.join(process.cwd(), 'selenium-standalone.txt')
+        var file = fs.statSync(filePath)
         assert(file.size > 0)
     })
 })

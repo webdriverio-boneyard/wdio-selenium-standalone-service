@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/webdriverio/wdio-selenium-standalone-service#readme",
   "dependencies": {
-    "mkdirp": "^0.5.1",
+    "fs-extra": "^0.30.0",
     "selenium-standalone": "^5.1.0"
   },
   "devDependencies": {
