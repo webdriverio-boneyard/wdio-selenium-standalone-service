@@ -56,11 +56,12 @@
   },
   "contributors": [
     "Christian Bromann <github@christian-bromann.com>",
-    "Jan-André Zinser <zinserjan@gmail.com>",
     "Andrii Lazebnyi <andriilazebnyi@users.noreply.github.com>",
+    "Jan-André Zinser <zinserjan@gmail.com>",
+    "Alexander Abashkin <monolithed@gmail.com>",
     "just-boris <just-boris@hotmail.com>",
     "George Crawford <g.o.crawford@gmail.com>",
-    "Simon Tsvilik <stsvilik@bloomberg.net>",
-    "Alexander Abashkin <monolithed@gmail.com>"
+    "Kevin Lamping <klamping@gmail.com>",
+    "Simon Tsvilik <stsvilik@bloomberg.net>"
   ]
 }
