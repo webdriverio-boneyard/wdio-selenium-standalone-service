@@ -5,7 +5,7 @@ var path = require('path')
 describe('webdriverio', function () {
     it('should run a test', function () {
         browser.url('/')
-        assert.equal(browser.getTitle(), 'WebdriverIO - Selenium 2.0 javascript bindings for nodejs')
+        assert.equal(browser.getTitle(), 'WebdriverIO - WebDriver bindings for Node.js')
     })
 
     it('should have created a log file', function () {
