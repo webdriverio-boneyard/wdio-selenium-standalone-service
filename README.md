@@ -50,6 +50,16 @@ Type: `Object`
 
 Default: `{}`
 
+Example: 
+```js
+seleniumArgs: {
+  seleniumArgs: ["-port", "4441"],
+  javaArgs: [
+    "-Xmx1024m"
+  ]
+},
+```
+
 ### seleniumInstallArgs
 Map of arguments for the Selenium server, passed directly to `Selenium.install()`.
 
