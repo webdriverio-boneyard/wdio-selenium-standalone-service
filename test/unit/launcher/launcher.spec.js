@@ -35,7 +35,7 @@ describe('getFilePath', function () {
 		assert.ok(portIndex >= 0 && launch.seleniumArgs.seleniumArgs[portIndex + 1] === 4444)
 	})
 
-	it('should add custom port to seleniumArgs (flag not specified)', function() {
+	it('should not add custom port to seleniumArgs (flag not specified)', function() {
 		const config = {
 			port: 4441,
 			seleniumArgs: {}, 
