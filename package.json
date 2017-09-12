@@ -6,6 +6,7 @@
   "scripts": {
     "build": "grunt build",
     "prepublish": "npm prune && npm run build",
+    "postinstall": "npm prune && npm run build",
     "test": "npm run test:unit && npm run test:integration",
     "test:unit": "mocha --compilers js:babel-register --recursive test/unit",
     "test:integration": "wdio test/integration/wdio.conf.js"
