@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+selenium-standalone.txt
 
 # Runtime data
 pids
