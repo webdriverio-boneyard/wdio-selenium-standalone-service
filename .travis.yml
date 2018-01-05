@@ -3,10 +3,12 @@ language: node_js
 node_js:
   - 'node'
 
+env:
+  - MOZ_HEADLESS=1
+addons:
+  firefox: latest
+
 before_script:
-  - "export DISPLAY=:99.0"
-  - "sh -e /etc/init.d/xvfb start"
-  - sleep 3 # give xvfb some time to start
   - npm run build
 
 cache:
