@@ -67,6 +67,11 @@ Type: `Object`
 
 Default: `{}`
 
+Example: 
+```js
+  seleniumArgs: {drivers: {firefox: {version: '0.23.0'}}},
+```
+
 ----
 
 For more information on WebdriverIO see the [homepage](http://webdriver.io).
