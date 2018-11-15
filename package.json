@@ -51,8 +51,8 @@
     "grunt-eslint": "^18.0.0",
     "load-grunt-tasks": "^3.4.1",
     "mocha": "^2.5.3",
-    "wdio-mocha-framework": "^0.2.12",
-    "webdriverio": "^4.0.7"
+    "wdio-mocha-framework": "^0.6.4",
+    "webdriverio": "^4.14.0"
   },
   "contributors": [
     "Christian Bromann <github@christian-bromann.com>",
