@@ -10,7 +10,7 @@ The easiest way is to keep `wdio-selenium-standalone-service` as a devDependency
 ```json
 {
   "devDependencies": {
-    "wdio-selenium-standalone-service": "~0.1"
+    "wdio-selenium-standalone-service": "~0.0.11"
   }
 }
 ```
@@ -50,7 +50,7 @@ Type: `Object`
 
 Default: `{}`
 
-Example: 
+Example:
 ```js
 seleniumArgs: {
   seleniumArgs: ["-port", "4441"],
