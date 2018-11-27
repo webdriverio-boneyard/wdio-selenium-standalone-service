@@ -67,6 +67,21 @@ Type: `Object`
 
 Default: `{}`
 
+### port
+This service will automatically launch the standalone server on the port specified in your WebDriverIO configuration file. 
+
+For example:
+```js
+port: 4441,
+seleniumArgs: {
+  javaArgs: [
+    "-Xmx1024m"
+  ]
+}
+```
+This is useful for specifying custom ports on the command line when running tests, allowing multiple instances of the standalone server to run concurrently.
+
+
 ----
 
 For more information on WebdriverIO see the [homepage](http://webdriver.io).
