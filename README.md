@@ -67,6 +67,24 @@ Type: `Object`
 
 Default: `{}`
 
+### skipSeleniumInstall
+Boolean for skipping `selenium-standalone` server install.
+
+Type: `Boolean`
+
+Default: `false`
+
+Example:
+```js
+// wdio.conf.js
+export.config = {
+  // ...
+  services: ['selenium-standalone'],
+  skipSeleniumInstall: true,
+  // ...
+};
+```
+
 ----
 
 For more information on WebdriverIO see the [homepage](http://webdriver.io).
