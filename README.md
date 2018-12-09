@@ -10,7 +10,7 @@ The easiest way is to keep `wdio-selenium-standalone-service` as a devDependency
 ```json
 {
   "devDependencies": {
-    "wdio-selenium-standalone-service": "~0.0.11"
+    "wdio-selenium-standalone-service": "~0.0.12"
   }
 }
 ```
@@ -66,6 +66,24 @@ Map of arguments for the Selenium server, passed directly to `Selenium.install()
 Type: `Object`
 
 Default: `{}`
+
+### skipSeleniumInstall
+Boolean for skipping `selenium-standalone` server install.
+
+Type: `Boolean`
+
+Default: `false`
+
+Example:
+```js
+// wdio.conf.js
+export.config = {
+  // ...
+  services: ['selenium-standalone'],
+  skipSeleniumInstall: true,
+  // ...
+};
+```
 
 ----
 
