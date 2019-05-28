@@ -67,6 +67,23 @@ Type: `Object`
 
 Default: `{}`
 
+Example:
+```js
+seleniumInstallArgs: {
+  drivers: {
+    chrome: {
+      version: '74.0.3729.6',
+      arch: process.arch,
+      baseURL: 'https://chromedriver.storage.googleapis.com'
+    }
+    logger: function(message) {
+      console.log(message);
+    }
+  }
+},
+```
+Object structure is exactly the same as in https://github.com/vvo/selenium-standalone docs
+
 ### skipSeleniumInstall
 Boolean for skipping `selenium-standalone` server install.
 
